@@ -24,7 +24,7 @@ const Form = (props) => {
       <div>
         <input
           style={{
-            borderColor: props.condition ? "red" : "inherit",
+            borderColor: props.condition ? "red" : "lightgray",
           }}
           type="password"
           placeholder="lErEaCtEuR2020"
@@ -36,7 +36,7 @@ const Form = (props) => {
       <div>
         <input
           style={{
-            borderColor: props.condition ? "red" : "inherit",
+            borderColor: props.condition ? "red" : "lightgray",
           }}
           type="password"
           placeholder="lErEaCtEuR2020"
